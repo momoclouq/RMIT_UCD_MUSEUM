@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 const pages = [
-    ["Home", "/"],
-    ["Basic", "/basic"],
-    ["Time and Place", "/basic"],
-    ["Other", "/basic"],
+    ["Home", "/RMIT_UCD_MUSEUM"],
+    ["Basic", "/RMIT_UCD_MUSEUM/basic"],
+    ["Time and Place", "/RMIT_UCD_MUSEUM/basic"],
+    ["Other", "RMIT_UCD_MUSEUM/basic"],
 ];
 
 const Navbar = () => {

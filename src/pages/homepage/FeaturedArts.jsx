@@ -4,7 +4,7 @@ import artifact1 from "../../images/artifact1.jpg";
 const FeaturedCard = ({artifactImg, title, id, alt}) => {
     return (
         <div className="border-2 duration-300 rounded border-transparent hover:border-slate-300 p-10 w-full md:w-1/3">
-            <Link to={`/artifact/${id}`}><img className="w-full rounded shadow-lg shadow-slate-300 brightness-90 aspect-square duration-300 hover:brightness-100" src={artifactImg} alt={alt} /></Link>
+            <Link to={`/RMIT_UCD_MUSEUM/artifact/${id}`}><img className="w-full rounded shadow-lg shadow-slate-300 brightness-90 aspect-square duration-300 hover:brightness-100" src={artifactImg} alt={alt} /></Link>
             <div className="text-center font-light text-neutral-900 text-3xl py-6">{title}</div>
             <div className="text-center font-extralight">This artwork presented individuals feelings. Julia idea and observation is that nowadays people sometimes are misled by their inner emotions and not always express themselves as individuals.</div>
         </div>

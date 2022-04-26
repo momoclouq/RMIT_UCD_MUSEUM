@@ -4,7 +4,7 @@ import artifact1 from "../../images/artifact1.jpg";
 const RecommendationCard = ({artifactImg, title, id, alt}) => {
     return (
         <div className="relative duration-300 w-full md:w-1/3 p-10">
-            <Link to={`/artifact/${id}`}><img className="w-full rounded shadow-lg shadow-slate-300 brightness-90 aspect-square duration-300 hover:brightness-100" src={artifactImg} alt={alt} /></Link>
+            <Link to={`/RMIT_UCD_MUSEUM/artifact/${id}`}><img className="w-full rounded shadow-lg shadow-slate-300 brightness-90 aspect-square duration-300 hover:brightness-100" src={artifactImg} alt={alt} /></Link>
             <div className="text-center font-light text-slate-800 lg:text-2xl text-base py-6">{title}</div>
         </div>
     )
