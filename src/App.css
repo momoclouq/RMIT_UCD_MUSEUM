@@ -1,3 +1,14 @@
 .App {
   background-color: aliceblue;
 }
+
+.custom-iframe {
+  height: 100%;
+  min-height: 400px;
+  width: 100%;
+  overflow: auto;
+}
+
+.custom-wrapper {
+  height: 100%;
+}

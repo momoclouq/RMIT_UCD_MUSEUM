@@ -6,6 +6,7 @@ const pages = [
     ["Time and Place", "/basic"],
     ["Other", "/basic"],
 ];
+
 const Navbar = () => {
     const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
 

@@ -10,12 +10,16 @@ const Landingpage = () => {
     return (
         <>
             <Navbar />
+
+            <div className="mx-auto">
                 <Routes>
                     <Route path="/" element={<App />} ></Route>
                     <Route index element={<Homepage />}></Route>
                     <Route path="/basic" element={<Basicpage />}></Route>
                     <Route path="artifact/:artifactId" element={<Detailpage />}></Route>
                 </Routes>
+            </div>
+            
             <Footer />
         </>
     );

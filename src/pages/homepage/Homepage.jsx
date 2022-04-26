@@ -1,9 +1,16 @@
 import React from "react";
+import AboutExhibition from "./AboutExhibition";
+import BasicInformation from "./BasicInformation";
+import FeaturedArts from "./FeaturedArts";
+import IntroductionPanel from "./IntroductionPanel";
 
 const Homepage = () => {
     return(
         <>
-            <div>Homepage</div>
+            <IntroductionPanel />
+            <AboutExhibition />
+            <FeaturedArts />
+            <BasicInformation />
         </>
     )
 }
