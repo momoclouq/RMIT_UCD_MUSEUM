@@ -2,6 +2,10 @@
   background-color: aliceblue;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .custom-iframe {
   height: 100%;
   min-height: 400px;
