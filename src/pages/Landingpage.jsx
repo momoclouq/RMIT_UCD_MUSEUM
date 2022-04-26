@@ -13,10 +13,9 @@ const Landingpage = () => {
 
             <div className="mx-auto">
                 <Routes>
-                    <Route path="/" element={<App />} ></Route>
-                    <Route index element={<Homepage />}></Route>
-                    <Route path="/basic" element={<Basicpage />}></Route>
-                    <Route path="artifact/:artifactId" element={<Detailpage />}></Route>
+                    <Route path="/RMIT_UCD_MUSEUM/" element={<Homepage />} ></Route>
+                    <Route path="/RMIT_UCD_MUSEUM/basic" element={<Basicpage />}></Route>
+                    <Route path="/RMIT_UCD_MUSEUM/artifact/:artifactId" element={<Detailpage />}></Route>
                 </Routes>
             </div>
             
