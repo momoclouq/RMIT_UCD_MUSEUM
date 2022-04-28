@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RMIT_UCD_MUSEUM/static/css/main.1c711be6.css",
-    "main.js": "/RMIT_UCD_MUSEUM/static/js/main.1b6bc782.js",
+    "main.css": "/RMIT_UCD_MUSEUM/static/css/main.5717d4ce.css",
+    "main.js": "/RMIT_UCD_MUSEUM/static/js/main.29f96159.js",
     "static/media/intro_panel_bg.jpg": "/RMIT_UCD_MUSEUM/static/media/intro_panel_bg.8f79cc7fb0f7664129d0.jpg",
     "static/media/artifact1.jpg": "/RMIT_UCD_MUSEUM/static/media/artifact1.65cd60feb691dd6328ca.jpg",
     "index.html": "/RMIT_UCD_MUSEUM/index.html",
-    "main.1c711be6.css.map": "/RMIT_UCD_MUSEUM/static/css/main.1c711be6.css.map",
-    "main.1b6bc782.js.map": "/RMIT_UCD_MUSEUM/static/js/main.1b6bc782.js.map"
+    "main.5717d4ce.css.map": "/RMIT_UCD_MUSEUM/static/css/main.5717d4ce.css.map",
+    "main.29f96159.js.map": "/RMIT_UCD_MUSEUM/static/js/main.29f96159.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c711be6.css",
-    "static/js/main.1b6bc782.js"
+    "static/css/main.5717d4ce.css",
+    "static/js/main.29f96159.js"
   ]
 }
