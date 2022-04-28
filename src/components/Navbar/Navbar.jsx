@@ -1,3 +1,6 @@
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import { useState } from "react";
 
 const pages = [
@@ -31,10 +34,14 @@ const Navbar = () => {
                 onClick={() => {
                     showSideMenu();
                 }}
-                className="lg:hidden menu-button pr-8"
+                className="lg:hidden menu-button pr-8 "
             >
-                menu
+                <FontAwesomeIcon
+                    size="2x"
+                    icon={isSideMenuOpen ? faXmark : faBars}
+                />
             </button>
+
             {isSideMenuOpen ? sideMenu() : ""}
         </nav>
     );
