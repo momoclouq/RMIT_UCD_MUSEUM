@@ -13,7 +13,7 @@ const RecommendationCard = ({artifactImg, title, id, alt}) => {
 const RecommendationPanel = () => {
     return (
         <div className="border-t-2 p-5 sm:p-10 content-center bg-white">
-            <div className="text-black font-extralight text-2xl md:text-3xl decoration-1 underline underline-offset-8 p-3">EXPLORE MORE</div>
+            <div className="text-black font-medium text-2xl md:text-3xl decoration-1 p-3">EXPLORE MORE</div>
             <div className="flex flex-col sm:flex-row flex-wrap justify-between align-center">
                 <RecommendationCard artifactImg={artifact1} title="Ancient stone masks" id={1} alt="Some rocks and rocks" />
                 <RecommendationCard artifactImg={artifact1} title="Ancient stone masks" id={1} alt="Some rocks and rocks" />
