@@ -12,13 +12,16 @@ const Detailpage = () => {
     return (
         <>
             <div className="flex flex-col md:flex-row lg:h-screen">
-                <Model3DFrame artifact={artifact.component}/>
-                <ArtifactInfo name={artifact.name} description={artifact.description} author={artifact.author}/>
+                <Model3DFrame artifact={artifact.component} />
+                <ArtifactInfo
+                    name={artifact.name}
+                    description={artifact.description}
+                    author={artifact.author}
+                />
             </div>
             <RecommendationPanel />
         </>
-        
-    )
-}
+    );
+};
 
 export default Detailpage;
