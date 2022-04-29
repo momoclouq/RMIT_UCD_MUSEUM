@@ -11,7 +11,7 @@ const Detailpage = () => {
 
     return (
         <>
-            <div className="flex flex-col md:flex-row lg:h-screen">
+            <div className="flex flex-col p-5 lg:my-10 md:my-10 lg:mx-20 md:mx-12 md:flex-row lg:h-screen">
                 <Model3DFrame artifact={artifact.component} />
                 <ArtifactInfo
                     name={artifact.name}
