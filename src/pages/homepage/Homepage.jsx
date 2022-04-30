@@ -1,18 +1,17 @@
-import React from "react";
 import AboutExhibition from "./AboutExhibition";
+import Artifects from "./Artifects";
 import BasicInformation from "./BasicInformation";
-import FeaturedArts from "./FeaturedArts";
 import IntroductionPanel from "./IntroductionPanel";
 
 const Homepage = () => {
-    return(
+    return (
         <>
             <IntroductionPanel />
             <AboutExhibition />
-            <FeaturedArts />
+            <Artifects />
             <BasicInformation />
         </>
-    )
-}
+    );
+};
 
 export default Homepage;
