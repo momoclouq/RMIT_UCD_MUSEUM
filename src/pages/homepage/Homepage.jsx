@@ -1,5 +1,5 @@
 import AboutExhibition from "./AboutExhibition";
-import Artifects from "./Artifects";
+import Artifacts from "./Artifacts";
 import BasicInformation from "./BasicInformation";
 import IntroductionPanel from "./IntroductionPanel";
 
@@ -8,7 +8,7 @@ const Homepage = () => {
         <>
             <IntroductionPanel />
             <AboutExhibition />
-            <Artifects />
+            <Artifacts />
             <BasicInformation />
         </>
     );

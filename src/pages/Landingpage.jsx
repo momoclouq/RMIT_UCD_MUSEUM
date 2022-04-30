@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
-import Basicpage from "./basic/Basicpage";
 import Detailpage from "./detail/DetailPage";
 import Homepage from "./homepage/Homepage";
 
@@ -15,10 +14,6 @@ const Landingpage = () => {
                     <Route
                         path="/RMIT_UCD_MUSEUM/"
                         element={<Homepage />}
-                    ></Route>
-                    <Route
-                        path="/RMIT_UCD_MUSEUM/basic"
-                        element={<Basicpage />}
                     ></Route>
                     <Route
                         path="/RMIT_UCD_MUSEUM/artifact/:artifactId"

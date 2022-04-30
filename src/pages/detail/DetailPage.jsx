@@ -8,6 +8,9 @@ const Detailpage = () => {
     let { artifactId } = useParams();
 
     const artifact = artifactBuilder(artifactId);
+    const artifact2 = artifactBuilder(5);
+    console.log(artifact);
+    console.log(artifact2);
 
     return (
         <>
@@ -17,6 +20,14 @@ const Detailpage = () => {
                     name={artifact.name}
                     description={artifact.description}
                     author={artifact.author}
+                />
+            </div>
+            <div className="flex flex-col p-5 lg:my-10 md:my-10 lg:mx-20 md:mx-12 md:flex-row lg:h-screen">
+                <Model3DFrame artifact={artifact2.component} />
+                <ArtifactInfo
+                    name={artifact2.name}
+                    description={artifact2.description}
+                    author={artifact2.author}
                 />
             </div>
             <RecommendationPanel />

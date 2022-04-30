@@ -21,9 +21,9 @@ const ArtifactCard = ({ artifactImg, title, id, alt }) => {
     );
 };
 
-const Artifects = () => {
+const Artifacts = () => {
     return (
-        <div className="box-border content-center bg-white">
+        <div id="artifacts" className="box-border content-center bg-white">
             <div className="py-10 px-12 lg:px-20">
                 <div className="mx-auto text-red-400 font-extralight text-center text-3xl p-7">
                     FEATURED ARTIFACTS
@@ -78,4 +78,4 @@ const Artifects = () => {
     );
 };
 
-export default Artifects;
+export default Artifacts;

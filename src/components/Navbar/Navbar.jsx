@@ -5,9 +5,8 @@ import { useState } from "react";
 
 const pages = [
     ["Home", "/RMIT_UCD_MUSEUM"],
-    ["Artifact", "/RMIT_UCD_MUSEUM/basic"],
-    ["Time and Place", "/RMIT_UCD_MUSEUM/basic"],
-    ["About Us", "RMIT_UCD_MUSEUM/basic"],
+    ["Artifact", "/RMIT_UCD_MUSEUM/#artifacts"],
+    ["Time and Place", "/RMIT_UCD_MUSEUM/#basicInfo"],
 ];
 
 const Navbar = () => {

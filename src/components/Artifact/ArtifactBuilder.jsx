@@ -1,27 +1,26 @@
 const artifacts = [
     {
         index: 1,
-        name: "Artifact 1",
+        name: "Statue of the Buddha",
         description:
-            "As Julia said, it was the most expressive artwork for her. It took only about 5 minutes to paint to have the result that she wanted. The idea was to reflect our social connection with each other.",
-        author: "Julie",
+            "The statue is handcrafted by the gifted follower, the color and the structure represents the presence of buddha in the spiritual world",
+        author: "Quang Chau",
+        image: "",
         component: (
-            <div className="custom-wrapper sketchfab-embed-wrapper">
-                <iframe
+            <div className="custom-wrapper sketchfab-embed-wrapper"> 
+                <iframe 
                     className="custom-iframe"
-                    title="Chesspiece"
-                    frameborder="0"
-                    allowfullscreen
-                    mozallowfullscreen="true"
-                    webkitallowfullscreen="true"
-                    allow="autoplay; fullscreen; xr-spatial-tracking"
-                    xr-spatial-tracking
-                    execution-while-out-of-viewport
-                    execution-while-not-rendered
-                    web-share
-                    src="https://sketchfab.com/models/e9c0b9d501204ddcacf8eb5e8600ce4e/embed"
-                >
-                    {" "}
+                    title="SF Asian Art Museum - Statue #4" 
+                    frameBorder="0" 
+                    allowfullscreen 
+                    mozallowfullscreen="true" 
+                    webkitallowfullscreen="true" 
+                    allow="autoplay; fullscreen; xr-spatial-tracking" 
+                    xr-spatial-tracking 
+                    execution-while-out-of-viewport 
+                    execution-while-not-rendered web-share 
+                    src="https://sketchfab.com/models/2b0872d545f943e5aa1fcd23568cc405/embed"
+                    > 
                 </iframe>
             </div>
         ),
@@ -33,23 +32,7 @@ const artifacts = [
             "As Julia said, it was the most expressive artwork for her. It took only about 5 minutes to paint to have the result that she wanted. The idea was to reflect our social connection with each other.",
         author: "Julie",
         component: (
-            <div className="sketchfab-embed-wrapper">
-                <iframe
-                    title="SF Asian Art Museum - Statue #4"
-                    frameborder="0"
-                    allowfullscreen
-                    mozallowfullscreen="true"
-                    webkitallowfullscreen="true"
-                    allow="autoplay; fullscreen; xr-spatial-tracking"
-                    xr-spatial-tracking
-                    execution-while-out-of-viewport
-                    execution-while-not-rendered
-                    web-share
-                    src="https://sketchfab.com/models/afddebcbd3584294923dc8cbc9f629eb/embed"
-                >
-                    {" "}
-                </iframe>
-            </div>
+            <div className="sketchfab-embed-wrapper"> <iframe title="1972.158 Pair of Guardian Kings (Nio)" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/2b0872d545f943e5aa1fcd23568cc405/embed"> </iframe> </div>
         ),
     },
     {

@@ -32,7 +32,7 @@ const RightPanel = () => {
 
 const BasicInformation = () => {
     return (
-        <div className="flex flex-col md:flex-row">
+        <div id="basicInfo" className="flex flex-col md:flex-row">
             <LeftPanel />
             <RightPanel />
         </div>

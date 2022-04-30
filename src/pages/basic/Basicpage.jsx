@@ -1,7 +1,7 @@
 const Basicpage = () => {
     return (
-        <div>
-            Basic page
+        <div className="container">
+            Basic page, not yet implemented
         </div>
     )
 }
