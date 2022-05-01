@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/RMIT_UCD_MUSEUM/static/css/main.eb171afa.css",
-    "main.js": "/RMIT_UCD_MUSEUM/static/js/main.6b3b9116.js",
-    "static/media/wp4012958.jpeg": "/RMIT_UCD_MUSEUM/static/media/wp4012958.9d583a309cc320c8d2ed.jpeg",
-    "static/media/artifact1.jpg": "/RMIT_UCD_MUSEUM/static/media/artifact1.65cd60feb691dd6328ca.jpg",
+    "main.css": "/RMIT_UCD_MUSEUM/static/css/main.cb144558.css",
+    "main.js": "/RMIT_UCD_MUSEUM/static/js/main.4b52f569.js",
+    "static/media/artifact_6.jpg": "/RMIT_UCD_MUSEUM/static/media/artifact_6.127a3cf0dcf7e51ad618.jpg",
+    "static/media/artifact_2.png": "/RMIT_UCD_MUSEUM/static/media/artifact_2.ea85479267f93cd1f023.png",
+    "static/media/artifact_5.png": "/RMIT_UCD_MUSEUM/static/media/artifact_5.a916c38cf38087adf443.png",
+    "static/media/artifact_4.png": "/RMIT_UCD_MUSEUM/static/media/artifact_4.15bcaa1d21f80528b703.png",
+    "static/media/artifact_3.png": "/RMIT_UCD_MUSEUM/static/media/artifact_3.4c22742a90120c47f512.png",
+    "static/media/image.jpg": "/RMIT_UCD_MUSEUM/static/media/image.530ba7c58f5c23f96ac2.jpg",
+    "static/media/artifact_1.png": "/RMIT_UCD_MUSEUM/static/media/artifact_1.dc3561ac5cc873f228c8.png",
     "index.html": "/RMIT_UCD_MUSEUM/index.html",
-    "main.eb171afa.css.map": "/RMIT_UCD_MUSEUM/static/css/main.eb171afa.css.map",
-    "main.6b3b9116.js.map": "/RMIT_UCD_MUSEUM/static/js/main.6b3b9116.js.map"
+    "main.cb144558.css.map": "/RMIT_UCD_MUSEUM/static/css/main.cb144558.css.map",
+    "main.4b52f569.js.map": "/RMIT_UCD_MUSEUM/static/js/main.4b52f569.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb171afa.css",
-    "static/js/main.6b3b9116.js"
+    "static/css/main.cb144558.css",
+    "static/js/main.4b52f569.js"
   ]
 }
