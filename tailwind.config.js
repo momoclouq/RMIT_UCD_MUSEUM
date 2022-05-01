@@ -3,7 +3,7 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                "intro-panel": "url('/src/images/wp4012958.jpeg')",
+                "intro-panel": "url('/src/images/image.jpg')",
             },
         },
     },

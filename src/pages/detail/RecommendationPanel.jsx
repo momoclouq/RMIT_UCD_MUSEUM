@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import artifact1 from "../../images/artifact1.jpg";
+import { artifactBuilder } from "../../components/Artifact/ArtifactBuilder";
 
 const RecommendationCard = ({ artifactImg, title, id, alt }) => {
     return (
@@ -25,24 +25,19 @@ const RecommendationPanel = () => {
                 EXPLORE MORE
             </div>
             <div className="flex flex-col sm:flex-row flex-wrap justify-between align-center">
-                <RecommendationCard
-                    artifactImg={artifact1}
-                    title="Ancient stone masks"
-                    id={1}
-                    alt="Some rocks and rocks"
-                />
-                <RecommendationCard
-                    artifactImg={artifact1}
-                    title="Ancient stone masks"
-                    id={1}
-                    alt="Some rocks and rocks"
-                />
-                <RecommendationCard
-                    artifactImg={artifact1}
-                    title="Ancient stone masks"
-                    id={1}
-                    alt="Some rocks and rocks"
-                />
+                    {
+                        [1, 2, 3].map((value) => {
+                            const artifact = artifactBuilder(value);
+                            return (
+                                <RecommendationCard
+                                    artifactImg={artifact.image}
+                                    title={artifact.name}
+                                    id={artifact.index}
+                                    alt={artifact.name}
+                                />
+                            )
+                        })
+                    }
             </div>
         </div>
     );
