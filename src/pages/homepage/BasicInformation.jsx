@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 const LeftPanel = () => {
     return (
         <div className="basis-full md:basis-2/5 p-10 md:p-12 lg:p-28">
@@ -12,6 +14,12 @@ const LeftPanel = () => {
 };
 
 const RightPanel = () => {
+    const navigate = useNavigate();
+
+    const moveToSearch = () => {
+        navigate("/RMIT_UCD_MUSEUM/search/id");
+    }
+
     return (
         <div className="basis-full md:basis-3/5 p-10 md:p-12 lg:p-28">
             <div className="text-4xl font-extralight py-5">
@@ -23,7 +31,7 @@ const RightPanel = () => {
                 Location: Fine art museum Ho Chi Minh city
             </div>
             <div className="py-5 font-extralight">Price: 50.000 VND</div>
-            <button className="mt-3 px-7 py-3 border-2 border-black hover:bg-white duration-300">
+            <button onClick={moveToSearch} className="mt-3 px-7 py-3 border-2 border-black hover:bg-white duration-300">
                 Buy tickets
             </button>
         </div>
