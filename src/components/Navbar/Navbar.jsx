@@ -5,6 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import mainlogo from "../../images/logo.png";
+import Searchbar from "./Searchbar";
 
 import { useState } from "react";
 
@@ -77,14 +78,14 @@ const Navbar = () => {
                 </button>
             </div>
             {isSideMenuOpen ? sideMenu() : ""}
-            {isSearchBarOpen ? searchBar() : ""}
+            {isSearchBarOpen ? <Searchbar /> : ""}
         </div>
     );
 };
 
 const sideMenu = () => {
     return (
-        <div className="lg:hidden md:hidden fixed w-full bg-black top-16 ">
+        <div className="absolute lg:hidden md:hidden fixed w-full bg-black top-16 ">
             <ul className="menu-list flex flex-col md:text-center text-xl font-thin uppercase pb-4">
                 {pages.map(([title, url]) => (
                     <li className="menu-list-item py-2 px-8 text-right hover:underline hover:decoration-1 hover:underline-offset-8">
@@ -92,38 +93,6 @@ const sideMenu = () => {
                     </li>
                 ))}
             </ul>
-        </div>
-    );
-};
-
-const searchBar = () => {
-    return (
-        <div class="flex justify-center absolute top-[13px] lg:right-12 md:right-12 right-20">
-            <div class="mb-3">
-                <input
-                    autoFocus
-                    type="search"
-                    class="
-        form-control
-        block
-        w-full
-        px-3
-        py-1.5
-        text-base
-        font-normal
-        text-gray-700
-        bg-white bg-clip-padding
-        border border-solid border-gray-300
-        rounded
-        transition
-        ease-in-out
-        m-0
-        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-      "
-                    id="searchBar"
-                    placeholder="Artifact name"
-                />
-            </div>
         </div>
     );
 };
