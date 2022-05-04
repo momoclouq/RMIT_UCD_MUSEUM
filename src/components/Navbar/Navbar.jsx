@@ -1,7 +1,7 @@
 import {
     faBars,
     faMagnifyingGlass,
-    faXmark,
+    faXmark
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import mainlogo from "../../images/logo.png";
@@ -20,14 +20,20 @@ const Navbar = () => {
     const [isSearchBarOpen, setIsSearchBarOpen] = useState(false);
 
     const showSideMenu = () => {
-        isSideMenuOpen
-            ? setIsSideMenuOpen(false)
-            : setIsSideMenuOpen(true) && setIsSearchBarOpen(false);
+        if (isSideMenuOpen) {
+            setIsSideMenuOpen(false);
+        } else {
+            setIsSideMenuOpen(true);
+            setIsSearchBarOpen(false);
+        }
     };
     const showSearchBar = () => {
-        isSearchBarOpen
-            ? setIsSearchBarOpen(false)
-            : setIsSearchBarOpen(true) && setIsSideMenuOpen(false);
+        if (isSearchBarOpen) {
+            setIsSearchBarOpen(false);
+        } else {
+            setIsSearchBarOpen(true);
+            setIsSideMenuOpen(false);
+        }
     };
 
     return (
