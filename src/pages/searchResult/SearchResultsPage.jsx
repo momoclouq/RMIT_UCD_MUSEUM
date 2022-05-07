@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom"
 import { artifactBuilder } from "../../components/Artifact/ArtifactBuilder";
+import Navbar from "../../components/Navbar/Navbar";
 
 const SearchTermDisplay = ({searchTerm}) => {
     return (
@@ -30,6 +31,7 @@ const SearchResultsPage = () => {
 
     return (
         <>
+            <Navbar />
             <div className="container mx-auto">
                 <SearchTermDisplay searchTerm={searchTerm} />
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pb-2">
