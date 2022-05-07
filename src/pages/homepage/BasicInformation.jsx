@@ -30,7 +30,7 @@ const RightPanel = () => {
             <div className="py-5 font-extralight">
                 Location: Fine art museum Ho Chi Minh city
             </div>
-            <div className="py-5 font-extralight">Price: 50.000 VND</div>
+            <div className="py-5 font-extralight">Price: 50.000</div>
             <button onClick={moveToSearch} className="mt-3 px-7 py-3 border-2 border-black hover:bg-white duration-300">
                 Buy tickets
             </button>

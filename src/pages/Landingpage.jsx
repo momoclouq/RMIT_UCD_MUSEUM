@@ -8,8 +8,6 @@ import SearchResultsPage from "./searchResult/SearchResultsPage";
 const Landingpage = () => {
     return (
         <>
-            <Navbar />
-
             <div className="mx-auto">
                 <Routes>
                     <Route
