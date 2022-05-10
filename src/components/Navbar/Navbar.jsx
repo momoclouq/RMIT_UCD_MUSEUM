@@ -1,7 +1,7 @@
 import {
     faBars,
     faMagnifyingGlass,
-    faXmark
+    faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import mainlogo from "../../images/logo.png";
@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="flex relative bg-black text-white">
             <a className="flex-none" href={"/RMIT_UCD_MUSEUM"}>
                 <img
-                    className="h-16 p-2 museum-logo"
+                    className="h-16 py-1 pl-6 museum-logo"
                     src={mainlogo}
                     alt="logo"
                 />
@@ -71,6 +71,7 @@ const Navbar = () => {
                 >
                     <FontAwesomeIcon className="h-5" icon={faMagnifyingGlass} />
                 </button>
+                {/* showSearchBar() */}
                 <button
                     onClick={() => {
                         showSideMenu();
