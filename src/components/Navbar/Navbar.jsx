@@ -69,9 +69,11 @@ const Navbar = () => {
                         showSearchBar();
                     }}
                 >
-                    <FontAwesomeIcon className="h-5" icon={faMagnifyingGlass} />
+                    <FontAwesomeIcon
+                        className="h-5 lg:invisible"
+                        icon={faMagnifyingGlass}
+                    />
                 </button>
-                {/* showSearchBar() */}
                 <button
                     onClick={() => {
                         showSideMenu();
