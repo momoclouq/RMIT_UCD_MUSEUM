@@ -17,7 +17,7 @@ const Searchbar = ({isOpen}) => {
     })();
 
     return (
-        <div class={`flex justify-center absolute top-[13px] lg:right-12 md:right-12 right-20 ${visibility}`}>
+        <div class={`flex justify-center absolute top-[13px] lg:right-12 right-20 ${visibility}`}>
             <div class="mb-3">
                 <input
                     autoFocus

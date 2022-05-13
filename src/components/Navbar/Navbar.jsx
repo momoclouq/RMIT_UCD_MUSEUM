@@ -92,7 +92,7 @@ const Navbar = () => {
 
 const sideMenu = () => {
     return (
-        <div className="absolute lg:hidden md:hidden fixed w-full bg-black top-16 ">
+        <div className="absolute lg:hidden fixed w-full bg-black top-16 ">
             <ul className="menu-list flex flex-col md:text-center text-xl font-thin uppercase pb-4">
                 {pages.map(([title, url]) => (
                     <li className="menu-list-item py-2 px-8 text-right hover:underline hover:decoration-1 hover:underline-offset-8">
