@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const Searchbar = ({isOpen}) => {
+const Searchbar = ({ isOpen }) => {
     const [text, setText] = useState(null);
     const navigate = useNavigate();
 
@@ -10,14 +10,16 @@ const Searchbar = ({isOpen}) => {
     };
 
     const visibility = (() => {
-        if(!isOpen) {
+        if (!isOpen) {
             return "invisible lg:visible";
-        } 
+        }
         return "";
     })();
 
     return (
-        <div class={`flex justify-center absolute top-[13px] lg:right-12 right-20 ${visibility}`}>
+        <div
+            class={`flex justify-center absolute top-[13px] lg:right-4 right-20 ${visibility}`}
+        >
             <div class="mb-3">
                 <input
                     autoFocus
@@ -48,7 +50,7 @@ const Searchbar = ({isOpen}) => {
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
       "
                     id="searchBar"
-                    placeholder="enter artifact name"
+                    placeholder="Search"
                 />
             </div>
         </div>
