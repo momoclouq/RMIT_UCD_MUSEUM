@@ -16,6 +16,7 @@ const Detailpage = () => {
             <div className="flex flex-col p-5 lg:my-10 md:my-10 lg:mx-20 md:mx-12 xl:flex-row lg:min-h-screen">
                 <Model3DFrame artifact={artifact.component} />
                 <ArtifactInfo
+                    date={artifact.date}
                     name={artifact.name}
                     description={artifact.description}
                     author={artifact.author}

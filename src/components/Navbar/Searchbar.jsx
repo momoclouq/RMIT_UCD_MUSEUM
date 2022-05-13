@@ -11,7 +11,7 @@ const Searchbar = ({isOpen}) => {
 
     const visibility = (() => {
         if(!isOpen) {
-            return "invisible xl:visible";
+            return "invisible lg:visible";
         } 
         return "";
     })();
