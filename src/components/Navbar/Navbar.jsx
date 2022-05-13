@@ -47,7 +47,7 @@ const Navbar = () => {
             </a>
             <div className="grow">
                 <nav className="flex h-16 text-white justify-center items-center">
-                    <ul className="hidden menu-list lg:flex lg:flex-row md:flex md:flex-row text-xl font-thin uppercase space-x-4">
+                    <ul className="hidden menu-list lg:flex lg:flex-row text-xl font-thin uppercase space-x-4">
                         {pages.map(([title, url]) => (
                             <a
                                 href={url}
@@ -63,7 +63,7 @@ const Navbar = () => {
                     </ul>
                 </nav>
             </div>
-            <div className="flex flex-none h-16 w-16 lg:justify-center md:justify-center justify-between">
+            <div className="flex flex-none h-16 w-16 lg:justify-center justify-between">
                 <button
                     onClick={() => {
                         showSearchBar();
@@ -76,7 +76,7 @@ const Navbar = () => {
                     onClick={() => {
                         showSideMenu();
                     }}
-                    className="lg:hidden md:hidden menu-button pr-4"
+                    className="lg:hidden menu-button pr-4"
                 >
                     <FontAwesomeIcon
                         className="h-6"
@@ -85,7 +85,7 @@ const Navbar = () => {
                 </button>
             </div>
             {isSideMenuOpen ? sideMenu() : ""}
-            {isSearchBarOpen ? <Searchbar /> : ""}
+            <Searchbar isOpen={isSearchBarOpen} />
         </div>
     );
 };
